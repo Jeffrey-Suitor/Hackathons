@@ -1,0 +1,68 @@
+<html>
+<!--Script to populate form with values-->
+
+
+<form action="/home/jeff/Code/MEC2019/form_complete.html" target="_self">
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+<!--Below is each data field in the form-->
+<fieldset>
+    <script src="bundle.js"></script>
+    <legend>Item Details:</legend>
+    <div>
+        <label for="name">Item Name:</label> <br>
+        <input type="text" id="Item_Name" name="ItemName"><br>
+    </div>
+    <div>
+        <label for="name">Item Number:</label> <br>
+        <input type="text" id="Item_Number" name="ItemNumber"><br>
+    </div>
+    <div>
+        <label for="name">Date Scanned:</label> <br>
+        <input type="text" id="Date_Scanned" name="DateScanned"><br>
+    </div>
+    <div>
+        <label for="name">Description:</label> <br>
+        <input type="text" id="Description" name="ItemDescription"><br>
+    </div>
+    <div>
+        <label for="name">Flavour:</label> <br>
+        <input type="text" id="Flavour" name="ItemFlavour"><br>
+    </div>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Shipment Details:</legend>
+    <div>
+        <label for="name">Quantity:</label><br>
+        <input type="text" id="Quantity" name="NumofItems"><br>
+    </div>
+    <div>
+        <label for="name">Experation Date:</label><br>
+        <input type="text" id="Exp_Date" name="ItemExperationDate"><br>
+    </div>
+    <div>
+        <label for="name">Supplier:</label><br>
+        <input type="text" id="Supplier" name="ItemSupplier"><br>
+    </div>
+    <div>
+        <label for="name">Date of Shipment:</label><br>
+        <input type="text" id="Shipment_Date" name="DateofShipment"><br>
+    </div>
+    <div>
+        <label for="name">Concerns:</label><br>
+        <textarea type="text" id="Concerns" name="ShipmentConcerns"></textarea>
+    </div>
+</fieldset>
+<br>
+
+<!--Submit button-->
+<div class="button">
+    <button type="submit">Submit</button>
+</div>
+
+<script src="html_filler.js"></script>
+
+</form>
+
+</html>

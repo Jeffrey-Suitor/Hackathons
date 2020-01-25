@@ -1,0 +1,34 @@
+{
+  "name": "mec2019",
+  "version": "1.0.0",
+  "description": "hackaton",
+  "main": "html_filler.js",
+  "scripts": {
+    "test": "\"echo \\\"Error:no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffrey-Suitor/MEC2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeffrey-Suitor/MEC2019/issues"
+  },
+  "homepage": "https://github.com/Jeffrey-Suitor/MEC2019#readme",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "instascan": "^1.0.0",
+    "jimp": "^0.5.4",
+    "jsqr": "^1.2.0",
+    "qrcode": "^1.4.2",
+    "qrcode-reader": "^1.0.4",
+    "quagga": "^0.12.1",
+    "reading-time": "^1.2.0",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
